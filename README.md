@@ -24,94 +24,115 @@ Citrix Workspace 2409.10 is the latest stable version
 | macOS    | .zip             | [Universal](https://go.microsoft.com/fwlink/?linkid=2298050) [Intel Chip](https://go.microsoft.com/fwlink/?linkid=2298103) [Apple Silicon](https://go.microsoft.com/fwlink/?linkid=2297727) |  
 
 
-### Key Features
+## System Requirements
 
-#### 1. **Unified Access to Resources**
+For smooth installation and optimal performance, ensure the following requirements are met:
 
-Citrix Workspace consolidates all digital tools into one platform. Users can access virtual desktops, SaaS applications, enterprise files, and collaboration tools from a single, intuitive dashboard. This eliminates the need to juggle between multiple platforms, saving time and reducing complexity.
+- **Operating System:** Supports Windows 11 24H2 and newer versions.
+- **.NET Framework:** Requires .NET Desktop Runtime 8.0 or higher.
+- **Supported Browsers:** Fully compatible with modern Chromium-based browsers.
+- **Hardware Requirements:** Works seamlessly on PCs, tablets, and thin clients. Hardware must meet Citrix’s recommended CPU, RAM, and storage specifications.
 
-#### 2. **Secure Remote Access**
+## Configuration
 
-Security is at the heart of Citrix Workspace. The platform offers end-to-end encryption, multi-factor authentication (MFA), and advanced policies to safeguard corporate data, whether users are working from home, traveling, or using public networks.
+To optimize performance and usability of Citrix Workspace App, configure the following:
 
-#### 3. **High-Performance Virtualization**
+- **Beacon Tests:**  
+    Verify Citrix network service connectivity using the built-in Configuration Checker. Beacon Tests ensure a reliable and robust user experience during Citrix sessions.
+    
+- **USB Connection Memory:**  
+    Automatically reconnect manually configured USB devices in future virtual sessions, simplifying device management and saving time.
+    
+- **Store Configuration:**  
+    Administrators can set user-friendly store names and control user modifications, maintaining consistency in organizational settings.
+    
+- **Power Management:**  
+    Prevent endpoint devices from entering sleep mode during active sessions with Power Management policies, ensuring uninterrupted workflows and enhanced productivity.
+    
+- **Advanced Customization Options:**  
+    Administrators can tailor session preferences, virtual channel behavior, and display configurations, providing flexibility for diverse environments.
+    
 
-Citrix Workspace provides seamless access to virtual applications and desktops. Its adaptive technology optimizes performance based on the user’s device and network conditions, ensuring fast and reliable access even in low-bandwidth environments.
+For detailed configuration instructions, visit the [Citrix Workspace Configuration Guide](https://docs.citrix.com/en-us/citrix-workspace-app/configure-access.html).
 
-#### 4. **Contextual Access Control**
+## Troubleshooting
 
-With Citrix’s intelligent access policies, organizations can grant or restrict access based on user identity, location, and device posture. This minimizes risks by ensuring that only authorized users have access to sensitive resources.
+Citrix Workspace App includes robust troubleshooting tools and strategies to address common issues:
 
-#### 5. **Integration with Popular Tools**
+- **Authentication Failures:**
+    
+    - Resolve Single Sign-On (SSO) or Kerberos issues by verifying domain credentials and Active Directory integration.
+    - Consult authentication logs for persistent issues.
+- **Network Issues:**
+    
+    - Use the Connection Strength Indicator for real-time network performance metrics.
+    - For advanced diagnostics, complement Citrix tools with third-party network monitoring solutions.
+- **Device Compatibility:**
+    
+    - Confirm that USB peripherals, webcams, and audio devices are supported by your Citrix Workspace App version. Keep device drivers updated for compatibility.
+    - Refer to Citrix documentation for a list of supported devices.
+- **Logs and Reports:**
+    
+    - Utilize detailed session activity, network, and device usage logs for in-depth analysis and effective troubleshooting.
+- **Session Disconnects:**
+    
+    - Investigate network policies, endpoint configurations, and server-side session limits.
+    - Enable reconnection policies to minimize disruptions during temporary connectivity losses.
 
-Citrix Workspace integrates with a variety of third-party applications and services, including Microsoft 365, Google Workspace, and Salesforce. This makes it easy for organizations to incorporate the platform into their existing workflows without disrupting productivity.
+For advanced troubleshooting, refer to the [Citrix Workspace Troubleshooting Page](https://docs.citrix.com/en-us/citrix-workspace-app/troubleshoot.html).
 
-#### 6. **Analytics and Insights**
+## Changelog
 
-The platform includes built-in analytics tools that provide actionable insights into user behavior, performance metrics, and potential security threats. IT administrators can use these insights to optimize operations and ensure compliance.
+#### Version 2409 (Latest Release)
 
-#### 7. **Device and OS Agnostic**
+- **New Features:**
+    
+    - Full support for Windows 11 24H2, ensuring compatibility with the latest OS features.
+    - Advanced energy-saving enhancements and refined beacon checks for improved network reliability.
+    - Default activation of TLS 1.3 for secure communication protocols.
+    - Enhanced virtual desktop resizing and launching for a flicker-free experience.
+- **Bug Fixes:**
+    
+    - Resolved authentication failures linked to Workspace Environment Management tools.
+    - Addressed UI inconsistencies in published resources display.
+    - Fixed USB reconnection delays causing session disconnects.
+    - Improved error reporting for troubleshooting virtual desktop launches.
 
-Citrix Workspace is compatible with a wide range of devices, including Windows, macOS, iOS, Android, and Linux. Its browser-based access option further ensures compatibility across platforms.
+#### Previous Versions
 
----
+- **Version 2405:**
+    
+    - Added SSO support for ARM64-based devices.
+    - Introduced enhanced system logs and improved beacon checker utility.
+    - Upgraded Microsoft Teams audio/video performance in virtual sessions.
+    - Integrated MJPEG webcam support for better image quality.
+    - Enhanced Desktop Viewer toolbar customization.
+- **Version 2403:**
+    
+    - Implemented sustainability features for hybrid launches.
+    - Improved domain pass-through authentication.
+    - Upgraded compatibility with the latest Chromium Embedded Framework versions.
+    - Introduced new administrative controls for app protection and security policies.
+    - Simplified Microsoft Teams VDI plugin installation.
 
-### Benefits
+## Key Features
 
-#### **For Users:**
+Citrix Workspace App for Windows includes features to boost productivity, security, and user experience:
 
-- **Seamless Experience:** Access everything you need from one place, without switching between applications.
-- **Flexibility:** Work from any device or location with confidence and efficiency.
-- **Enhanced Productivity:** Enjoy fast, secure access to tools and resources that keep workflows uninterrupted.
-
-#### **For IT Teams:**
-
-- **Centralized Management:** Monitor, configure, and update resources from a unified dashboard.
-- **Enhanced Security:** Protect sensitive data with enterprise-grade security features and policies.
-- **Scalability:** Easily adapt to changing business needs, from adding new users to integrating new applications.
-
----
-
-### Use Cases
-
-#### **Remote Work**
-
-Empower your workforce with secure access to corporate resources from home, ensuring business continuity without compromising on security or productivity.
-
-#### **BYOD (Bring Your Own Device) Policies**
-
-Allow employees to use their own devices while maintaining strict control over enterprise resources. Citrix Workspace ensures data security and compatibility across devices.
-
-#### **Industries with Strict Compliance Requirements**
-
-Organizations in finance, healthcare, and legal industries can benefit from Citrix Workspace’s robust security features to maintain compliance with regulations like GDPR, HIPAA, and SOC 2.
-
----
-
-### System Requirements
-
-Citrix Workspace supports a variety of environments, with recommended system configurations for optimal performance:
-
-- **Supported Operating Systems:** Windows 10+, macOS 10.14+, iOS 13+, Android 9+, and most Linux distributions.
-- **Browser Access:** Chrome, Edge, Firefox, and Safari.
-- **Minimum Network Speed:** 1 Mbps (10 Mbps or higher recommended for video-heavy tasks).
-
----
-
-### Getting Started
-
-To start using Citrix Workspace, follow these simple steps:
-
-1. **Install the Application:** Download and install Citrix Workspace on your device from the [official website](https://www.citrix.com).
-2. **Log In:** Use your organization-provided credentials to log in securely.
-3. **Set Up Access:** Follow on-screen instructions to configure access to applications, files, and desktops.
-
-For detailed installation and troubleshooting guides, refer to the official documentation.
-
----
-
-### Why Choose Citrix Workspace?
-
-Citrix Workspace stands out as a comprehensive digital workspace solution that prioritizes user experience without compromising on security or performance. It’s a proven platform trusted by organizations worldwide, making it an ideal choice for modern businesses looking to streamline operations, enhance collaboration, and ensure robust security.
-
-Make the switch to Citrix Workspace today and experience the future of work, simplified.
+- **Single Sign-On Support:**  
+    Simplifies authentication with SSO using domain credentials or Kerberos, ensuring seamless and secure logins.
+    
+- **Microsoft Teams Optimization:**  
+    Enhanced audio, video, and collaboration tools ensure smooth virtual meeting experiences.
+    
+- **Improved Desktop Launch Experience:**  
+    Offers flicker-free transitions and seamless resizing of virtual desktops.
+    
+- **TLS 1.3 Support:**  
+    Strengthens security by adopting the latest TLS protocol.
+    
+- **SOCKS5 Proxy Support:**  
+    Ensures secure and reliable data transport within enterprise networks.
+    
+- **Customizable Desktop Viewer Toolbar:**  
+    Allows users to personalize tools and features for improved efficiency.
